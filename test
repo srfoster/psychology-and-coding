@@ -1,3 +1,0 @@
-#lang clicker-cartoon-collect
-
-(start-clouds pilot (coin))

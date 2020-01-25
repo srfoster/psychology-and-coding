@@ -13,16 +13,18 @@
      (same-things?->jingle things ...)))
 
 (define-syntax-rule (same-things?->jingle things ...)
-    (and (all-eq? things ...)
-	 "Play Jingle"))
+    (if (all-eq? things ...)
+	"Play Jingle"
+	"Silence..."))
 
 (define-syntax-rule (module-begin/diff-things?->jingle things ...)
     (#%module-begin 
      (diff-things?->jingle things ...)))
 
 (define-syntax-rule (diff-things?->jingle things ...)
-    (and (not (all-eq? things ...))
-	 "Play Jingle"))
+    (if (not (all-eq? things ...))
+	"Play Jingle"
+	"Silence..."))
 
 (define (all-eq? . things)
   (= 1 
