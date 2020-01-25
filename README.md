@@ -86,7 +86,7 @@ Another question -- does the same/difference reasoning extend to more than two s
 
 ![More than Two](./images/more-than-two.png)
 
-You may also notice that I implemented this simple graphical language without parentheses (i.e. a grouping mechanism).  But adding grouping immediately allows for syntactically more complex programs, which allows for new questions about reasoning.  For example: Would people who understand the semantics of the languages above see the program below and be able to predict that it will play one measure of jingle and two measures of silence?  (Note: It will actually throw an error -- but that could be easly changed.)
+You may also notice that I implemented this simple graphical language without parentheses (i.e. a grouping mechanism).  But adding grouping immediately allows for syntactically more complex programs, which allows for new questions about reasoning.  For example: Would people who understand the semantics of the languages above see the program below and be able to predict that it will play one measure of jingle and two measures of silence?  (Note: It will currently throw an error.)
 
 ![Basic Expressions](./images/basic-expressions.png)
 
@@ -113,9 +113,7 @@ In general, though, I've tried to implement the `same-diff` languages as very si
 
 ## Possible research questions
 
-All of the questions that jump out to me are ones that attempt to tease out the relationships between reasoning on programs (which I'll call "syntactical abstract reasoning") and reasoning on the world in general.
-
-A big first question, then, might be:
+All of the questions that jump out to me are ones that attempt to tease out the relationships between reasoning on syntax and reasoning in general.  A general strategy is: Find questions about reasoning that can be encoded as questions about syntax and semantics.
 
 * What other analogical reasoning questions can be translated into questions about programming language comprehension?
 * Can all questions be translated in such a way?
