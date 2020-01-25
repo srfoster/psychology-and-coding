@@ -14,6 +14,12 @@ Now, you can install packages contained in this repo.  Currently, there is only 
 1) One that plays jingles when shapes are the same,
 2) One that plays jingles when shapes are different
 
+It's basically an implementation of what you might get if you started interpreting this figure as a collection of expressions in two different programming languages:
+
+![](https://www.pnas.org/content/pnas/116/28/13891/F1.large.jpg)
+
+You can start playing with those languages by installing the `same-diff` package:
+
 ```
 git clone git@github.com:srfoster/psychology-and-coding.git
 cd psychology-and-coding/same-diff
