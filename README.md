@@ -1,4 +1,4 @@
-# Psych + Programming Lanuages 
+# Psychology + Programming Lanuages 
 
 ## Installation
 
@@ -9,7 +9,10 @@ First, install Racket on your system.  Verify that the command line tools were s
 Welcome to Racket v7.*.
 ```
 
-Now, you can install packages contained in this repo.  Currently, there is only one -- an incomplete translation of the experimental setup described in Carstensen, et al paper (["Context Shapes Early Diversity in Abstract Thought"](https://ucsdnews.ucsd.edu/pressrelease/culture_shapes_how_we_learn_to_reason)) into various programming langauges.
+Now, you can install packages contained in this repo.  Currently, there is only one -- an incomplete translation of the experimental setup described in Carstensen, et al paper (["Context Shapes Early Diversity in Abstract Thought"](https://ucsdnews.ucsd.edu/pressrelease/culture_shapes_how_we_learn_to_reason)) into two programming langauges:
+
+1) One that plays jingles when shapes are the same,
+2) One that plays jingles when shapes are different
 
 ```
 git clone git@github.com:srfoster/psychology-and-coding.git
@@ -75,9 +78,7 @@ Or if you insert a non-same shape, you'll get silence:
 
 ![Basic Silence](./images/basic-silence.png)
 
-Already, there are some interesting (at least to me) questions.  Like, at what age does it become possible for people to abstract over "whitespace" -- recognizing that this will also play a jingle.
-
-In programming, some spatial relationships are important.  Some are not.  In this language, the whitespace doesn't matter. 
+Already, there are some interesting (at least to me) questions.  Like, at what age does it become possible for people to abstract over "whitespace" -- recognizing that the program below will also play a jingle?
 
 ![Basic Whitespace](./images/basic-whitespace.png)
 
@@ -85,7 +86,7 @@ Another question -- does the same/difference reasoning extend to more than two s
 
 ![More than Two](./images/more-than-two.png)
 
-You may also notice that I implemented this simple graphical language without parentheses (i.e. a grouping mechanism).  But adding this immediately allows for more complex programs, which might allow for new questions.  For example: Does the code below play one jingle followed by two measures of silence?  (It could, though I haven't implement that language.)
+You may also notice that I implemented this simple graphical language without parentheses (i.e. a grouping mechanism).  But adding grouping immediately allows for syntactically more complex programs, which allows for new questions about reasoning.  For example: Would people who understand the semantics of the languages above see the program below and be able to predict that it will play one measure of jingle and two measures of silence?  (Note: It will actually throw an error -- but that could be easly changed.)
 
 ![Basic Expressions](./images/basic-expressions.png)
 
@@ -93,7 +94,7 @@ At what age are people able to see that the two expressions in the image below a
 
 ![Whitespace in Expressions](./images/whitespace-in-expressions.png)
 
-And the final evolution (from a purely syntactical point of view) would be nested expressions.
+And a final evolution (from a purely syntactical point of view) would be nested expressions.
 
 Here's a nonsense program simply to illustrate the general idea (it would throw an error if you ran it).
 
@@ -119,5 +120,4 @@ A big first question, then, might be:
 * What other analogical reasoning questions can be translated into questions about programming language comprehension?
 * Can all questions be translated in such a way?
 * Are the experimental results always the same?
-
 
