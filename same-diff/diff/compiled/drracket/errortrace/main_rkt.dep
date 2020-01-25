@@ -1,0 +1,1 @@
+("7.2" racket ("d976e729ea1915bed90294d0b461d9833b13aa2b" . "3538e3efbc7aac79140ff04679e6115dea972cc7") (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"ratchet" #"main.rkt") (collects #"ratchet" #"util.rkt") (collects #"same-diff" #"common.rkt") (collects #"syntax" #"module-reader.rkt"))
